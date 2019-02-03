@@ -4,9 +4,13 @@ import { RouterModule } from '@angular/router';
 import { HomeModule } from '../home/home.module';
 import { MaterialModule } from '../material.module';
 import { HeaderComponent } from './header/header.component';
+import { HighlightTitleDirective } from './highlight-title.directive';
 
 @NgModule({
-  declarations: [HeaderComponent],
+  declarations: [
+    HeaderComponent,
+    HighlightTitleDirective
+  ],
   imports: [
     CommonModule,
     HomeModule,
